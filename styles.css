@@ -1,0 +1,74 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Hero Section */
+  #hero {
+    height: 100vh;
+  }
+  .navbar{
+    background-color: #c0ff73;
+    padding-left: 20px; /* Remove o padding à esquerda */
+    padding-right: 0; /* Remove o padding à direita */
+  }
+  
+  #hero .container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  /* Primary Color for Titles */
+  h2, h3 {
+    color: #76a300; /* Cor verde mais forte */
+  }
+  .nav-link, .navbar-brand{
+    color: #FFFFFF;
+  }
+  .nav-link:hover , .navbar-brand:hover{
+    color: #76a300;
+  }
+
+  
+  .navbar .container {
+    max-width: 100%; /* Garante que o container ocupe toda a largura */
+    padding-left: 0; /* Remove o padding à esquerda do container */
+    padding-right: 0; /* Remove o padding à direita do container */
+  }
+  
+  
+  /* Background Colors */
+  #sobre {
+    background-color: #f8f9fa;
+  }
+  
+  #solucao ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  #diferenciais h3 {
+    color: #76a300; /* Cor verde mais forte */
+  }
+  
+  /* Form and Footer */
+  footer {
+    background-color: #343a40;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  /* Buttons and Links */
+  .btn-primary {
+    background-color: #76a300;
+    border-color: #76a300;
+  }
+  
+  .btn-primary:hover {
+    background-color: #5e8e00;
+    border-color: #5e8e00;
+  }
+  
